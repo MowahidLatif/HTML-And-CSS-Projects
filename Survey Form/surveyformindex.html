@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../ Survey Form/surveyformstyles.css"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1>Personal Survey Form</h1>
+    <form class="formInput">
+      <label for="name" class="inputChild"> First Name</label><br />
+      <input type="text" class="inputChild" required /><br />
+      <h4></h4>
+      <label for="name" class="inputChild"> Last Name</label><br />
+      <input type="text" class="inputChild" required /><br />
+
+      <label for="name" class="inputChild"> Email</label><br />
+      <input type="email" class="inputChild" required /><br />
+      <input
+        type="text"
+        class="inputChild"
+        placeholder="Tell us about yourself"
+      />
+      <label for="name" class="inputChild">Are you a citizen?</label>
+      <input type="text" class="inputChild" />
+      <label for="name" class="inputChild"
+        >Are you allowed to work in Canada?</label
+      >
+      <input type="text" class="inputChild" />
+      <label for="name" class="inputChild"
+        >Which of the following are appealing activities?</label
+      ><br />
+      <input type="checkbox" name="Books" class="inputCheckBoxOptions" />Books
+      <input type="checkbox" name="Cars" class="inputCheckBoxOptions" />Cars
+      <input type="checkbox" name="Movies" class="inputCheckBoxOptions" />Movies
+      <input type="checkbox" name="Sports" class="inputCheckBoxOptions" />Sports
+      <input type="checkbox" name="Drawing" class="inputCheckBoxOptions" />Drawing
+      <br />
+      <label class="inputChild">What is your favorite Genre of Movies? </label>
+      <select name="moviePref" class="movieChoice">
+        <option value="1">Action</option>
+        <option value="2">Romance</option>
+        <option value="3">Comedy</option>
+        <option value="4">Sci-Fi</option>
+        <option value="5">Documentries</option>
+      </select>
+      <button class="buttonSubmit">Submit Information</button>
+    </form>
+  </body>
+</html>

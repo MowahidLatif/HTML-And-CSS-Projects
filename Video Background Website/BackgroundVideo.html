@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./BackgroundVideo.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latif Estate</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Travel</h2>
+        <div class="toggle"></div>
+      </header>
+      <video
+        src="./Video/production ID_4782367.mp4"
+        muted
+        loop
+        autoplay
+      ></video>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>Experience</h2>
+        <h3>Unforgetable Vacations</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
+          reprehenderit?
+        </p>
+        <a href="">Book Now!</a>
+      </div>
+      <ul class="socialLinks">
+        <li><a href="#"><img src="/Images/fb.png" /></a></li>
+        <li><a href="#"><img src="/Images/tw.png" /></a></li>
+        <li><a href="#"><img src="/Images/ig.png" /></a></li>
+
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Testamonials</a></li>
+        <li><a href="#">News </a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us!</a></li>
+      </ul>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showCase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showCase.classList.toggle('active')
+
+      }); 
+    </script>
+  </body>
+</html>

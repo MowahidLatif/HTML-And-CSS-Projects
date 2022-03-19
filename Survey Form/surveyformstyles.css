@@ -1,0 +1,41 @@
+body {
+  background-color: grey;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  align-self: center;
+}
+
+.formInput {
+  font-size: 15px;
+}
+
+.inputChild {
+  padding: 10px;
+  margin: 10px;
+  width: 800px;
+}
+
+.buttonSubmit {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 30px;
+  color: white;
+}
+
+.inputCheckBoxOptions {
+  margin: 20px;
+  font-size: 10px;
+  color: white;
+}
+
+.movieChoice {
+  padding: 10px;
+  width: 100px;
+}

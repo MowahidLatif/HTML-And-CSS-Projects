@@ -1,0 +1,35 @@
+h1 {
+  font-size: 50px;
+  color: whitesmoke;
+  background-color: black;
+}
+
+h3 {
+  font-size: 30px;
+  color: whitesmoke;
+  background-color: black;
+}
+
+ul > li {
+  font-size: 20px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+}
+
+.leftSide {
+  flex: 0 0 auto;
+  padding-right: 100px;
+}
+
+.rightSide {
+  /* flex: 1 0 auto; */
+}
+ a {
+   font-size: 30px;
+ }

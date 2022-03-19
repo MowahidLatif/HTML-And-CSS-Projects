@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.mainScreen {
+  position: relative;
+  right: 0%;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 1);
+  color: whitesmoke;
+  z-index: 2;
+}
+
+.mainScreen header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 20px;
+}
+
+.mainScreen video {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .5;
+}
+
+.textScreen {
+  z-index: 10;
+  position: absolute;
+  left: 40px;
+}
+
+.textScreen h1 {
+  font-size: 4em;
+  font-weight: 800;
+  max-width: 900px;
+}
+
+.textScreen h3 {
+  font-size: 2em;
+  max-width: 800px;
+  padding: 5px;
+}
+
+.textScreen p {
+  font-size: 1.5em;
+  max-width: 700px;
+  padding: 5px;
+}
